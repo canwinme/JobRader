@@ -1,0 +1,27 @@
+# Java / Maven
+target/
+*.class
+*.jar
+
+# IDE
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+
+# Local / secret configuration
+.env
+.env.*
+!.env.example
+application-local.properties
+application-secret.properties
+src/main/resources/application-local.properties
+src/main/resources/application-secret.properties
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
